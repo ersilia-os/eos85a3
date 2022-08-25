@@ -2,12 +2,12 @@
 ## Model identifiers
 - Slug: grover-lipo
 - Ersilia ID: eos85a3
-- Tags: 
+- Tags: MoleculeNet, Lipophilicity
 
 # Model description
 Prediction of octanol/water distribution coefficient (logD at pH 7.4).
 - Input: SMILES
-- Output: Physicochemical property, Solubility 
+- Output: Physicochemical property, Lipophilicity
 - Model type: Regression
 - Training set: 10,000,000 (https://paperswithcode.com/dataset/moleculenet)
 - Mode of training: Pretrained

@@ -25,6 +25,8 @@ Prediction of octanol/water distribution coefficient (logD at pH 7.4) trained us
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos85a3)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos85a3.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos85a3) (AMD64, ARM64)
 
 ## Citation
 

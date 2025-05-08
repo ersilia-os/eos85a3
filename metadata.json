@@ -4,21 +4,25 @@
     "Status": "Ready",
     "Title": "Octanol/water distribution coefficient",
     "Description": "Prediction of octanol/water distribution coefficient (logD at pH 7.4) trained using the Lipophilicity Molecule Net dataset. This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER)\n",
-    "Mode": "Pretrained",
+    "Source": "Local",
+    "Source Type": "External",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
-    "Task": [
-        "Regression"
+    "Input Dimension": 1,
+    "Task": "Annotation",
+    "Subtask": "Property calculation or prediction",
+    "Biomedical Area": [
+        "ADMET"
+    ],
+    "Target Organism": [
+        "Not Applicable"
     ],
     "Output": [
         "Experimental value"
     ],
-    "Output Type": [
-        "Float"
-    ],
-    "Output Shape": "Single",
+    "Output Dimension": 1,
+    "Output Consistency": "Fixed",
     "Interpretation": "Predicted logD at pH 7.4",
     "Tag": [
         "MoleculeNet",
@@ -27,14 +31,20 @@
         "LogD",
         "Chemical graph model"
     ],
-    "Publication": "https://papers.nips.cc/paper/2020/hash/94aef38441efa3380a3bed3faf1f9d5d-Abstract.html",
+    "Publication": "https://arxiv.org/abs/2007.02835",
+    "Publication Type": "Preprint",
+    "Publication Year": 2020,
     "Source Code": "https://github.com/tencent-ailab/grover",
     "License": "MIT",
     "Contributor": "Amna-28",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos85a3.zip",
+    "Incorporation Date": "2022-07-13",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos85a3",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
+    ],
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos85a3.zip",
+    "Deployment": [
+        "Local"
     ]
 }

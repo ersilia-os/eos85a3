@@ -2,7 +2,7 @@
 
 Prediction of octanol/water distribution coefficient (logD at pH 7.4) trained using the Lipophilicity Molecule Net dataset. This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER)
 
-This model was incorporated on 2022-07-13.
+This model was incorporated on 2022-07-19.
 
 ## Information
 ### Identifiers
@@ -39,6 +39,8 @@ Below are the **Output Columns** of the model:
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos85a3.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos85a3.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `1312`
+- **Environment Size (Mb):** `2551`
 
 
 ### References

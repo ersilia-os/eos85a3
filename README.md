@@ -4,6 +4,7 @@ Prediction of octanol/water distribution coefficient (logD at pH 7.4) trained us
 
 This model was incorporated on 2022-07-19.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos85a3`
@@ -13,7 +14,7 @@ This model was incorporated on 2022-07-19.
 - **Task:** `Annotation`
 - **Subtask:** `Property calculation or prediction`
 - **Biomedical Area:** `ADMET`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `MoleculeNet`, `Lipophilicity`, `ADME`, `LogD`, `Chemical graph model`
 
 ### Input

@@ -14,7 +14,7 @@ This model was incorporated on 2022-07-19.Last packaged on 2026-03-10.
 - **Subtask:** `Property calculation or prediction`
 - **Biomedical Area:** `ADMET`
 - **Target Organism:** `Any`
-- **Tags:** `MoleculeNet`, `Lipophilicity`, `ADME`, `LogD`, `Chemical graph model`
+- **Tags:** `Lipophilicity`, `ADME`, `LogD`, `Chemical graph model`
 
 ### Input
 - **Input:** `Compound`

@@ -22,7 +22,6 @@
     "Output Consistency": "Fixed",
     "Interpretation": "Predicted logD at pH 7.4",
     "Tag": [
-        "MoleculeNet",
         "Lipophilicity",
         "ADME",
         "LogD",

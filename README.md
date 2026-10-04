@@ -1,6 +1,6 @@
 # Octanol/water distribution coefficient
 
-Prediction of octanol/water distribution coefficient (logD at pH 7.4) trained using the Lipophilicity Molecule Net dataset. This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER)
+Quantifies lipophilicity as the octanol-water distribution coefficient at physiological pH, a property that shapes absorption, permeability and off-target promiscuity in equal measure. Values were learned from the MoleculeNet Lipophilicity set of experimentally determined logD measurements. The underlying encoder is a graph transformer pretrained on 10 million unlabelled molecules, fine-tuned here for regression. Measurements originate from a single curated source, so systematic assay bias carries through to the predictions.
 
 This model was incorporated on 2022-07-19.Last packaged on 2026-07-06.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2022-07-19.Last packaged on 2026-07-06.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Predicted logD at pH 7.4
+- **Interpretation:** Octanol-water distribution coefficient logD at pH 7.4, higher values indicating greater lipophilicity.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |

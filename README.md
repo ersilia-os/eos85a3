@@ -1,6 +1,6 @@
 # Octanol/water distribution coefficient
 
-Quantifies lipophilicity as the octanol-water distribution coefficient at physiological pH, a property that shapes absorption, permeability and off-target promiscuity in equal measure. Values were learned from the MoleculeNet Lipophilicity set of experimentally determined logD measurements. The underlying encoder is a graph transformer pretrained on 10 million unlabelled molecules, fine-tuned here for regression. Measurements originate from a single curated source, so systematic assay bias carries through to the predictions.
+Quantifies lipophilicity as the octanol-water distribution coefficient at physiological pH, a property that shapes absorption, membrane permeability and off-target promiscuity alike. The MoleculeNet Lipophilicity set contributed 4,200 experimental logD values curated from ChEMBL. Its encoder is a graph transformer pretrained on 10 million unlabelled molecules, fine-tuned here for regression and averaged over three folds. Because every measurement comes from one curated collection, systematic assay bias carries straight through to the predictions.
 
 This model was incorporated on 2022-07-19.Last packaged on 2026-07-06.
 

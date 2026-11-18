@@ -2,7 +2,8 @@
 
 Quantifies lipophilicity as the octanol-water distribution coefficient at physiological pH, a property that shapes absorption, membrane permeability and off-target promiscuity alike. The MoleculeNet Lipophilicity set contributed 4,200 experimental logD values curated from ChEMBL. Its encoder is a graph transformer pretrained on 10 million unlabelled molecules, fine-tuned here for regression and averaged over three folds. Because every measurement comes from one curated collection, systematic assay bias carries straight through to the predictions.
 
-This model was incorporated on 2022-07-19.Last packaged on 2026-07-06.
+This model was incorporated on 2022-07-19.
+Last packaged on 2026-07-06.
 
 ## Information
 ### Identifiers
@@ -37,6 +38,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos85a3](https://hub.docker.com/r/ersiliaos/eos85a3)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos85a3.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos85a3.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos85a3_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos85a3_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1312`
